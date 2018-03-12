@@ -124,7 +124,7 @@
                                   </div>
                                   <div class="item text">
                                       <label>Email</label>
-                                      <div class="field"><input type="text" name="email" /></div>
+                                      <div class="field"><input type="email" name="email" /></div>
                                   </div>
                                   <div class="button-wrapper">
                                       <div class="item button">
@@ -243,7 +243,7 @@
                                 usuarios.$form.id_entry.value = entry.id;
                             }
                             else if (op == "remove") {
-                                if (confirm('Are you sure you want to remove "' + entry.first_name + ' ' + entry.last_name + '" from your usuarios?')) {
+                                if (confirm('¿Eliminanos a "' + entry.first_name + ' ' + entry.last_name + '" definitivamente?')) {
                                     usuarios.storeRemove(entry);
                                     usuarios.tableRemove(entry);
                                 }
