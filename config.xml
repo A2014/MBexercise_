@@ -62,8 +62,6 @@
     <splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
   </platform>
 
-
-  <plugin name="cordova-plugin-camera" spec="~2.1.1" source="npm"/>
   <plugin name="cordova-plugin-device" spec="~1.1.1" source="npm"/>
   <plugin name="cordova-plugin-dialogs" spec="~1.2.0" source="npm"/>
   <plugin name="cordova-plugin-geolocation" spec="~2.1.0" source="npm"/>
